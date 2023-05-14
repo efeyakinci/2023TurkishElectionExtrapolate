@@ -14,7 +14,7 @@ def get_city_data(id):
 
 threads = []
 
-for i in range(1, 81):
+for i in range(1, 82):
     threads.append(threading.Thread(target=get_city_data, args=(i,)))
     threads[-1].start()
 
