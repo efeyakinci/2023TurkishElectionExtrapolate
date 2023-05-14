@@ -3,7 +3,7 @@ import threading
 import requests
 
 def get_city_url(id):
-    return "https://secim-storage-cdn.ntv.com.tr/election2023/president/33.json?v=20230514092410"
+    return f"https://secim-storage-cdn.ntv.com.tr/election2023/president/{id}.json?v=20230514092410"
 
 def get_city_data(id):
     response = requests.get(get_city_url(id))

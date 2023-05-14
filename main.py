@@ -27,7 +27,7 @@ def main():
 
     total_votes = sum(votes.values())
     for candidate, vote in votes.items():
-        print("{}: {}%".format(candidate, vote / total_votes * 100))
+        print("{}: {:.2f}%".format(candidate, vote / total_votes * 100))
 
 if __name__ == "__main__":
     main()
