@@ -1,0 +1,4 @@
+obp: Opened Ballots
+tpc: Total voters
+
+cdts->vp: voting percentage
